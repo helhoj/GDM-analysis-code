@@ -1,6 +1,6 @@
 README
 
-\# Analysis code for a gestational diabetes mellitus study
+# Analysis code for a gestational diabetes mellitus study
 
 **Title of project:** Metabolic status in mothers with gestational diabetes mellitus and the effects on fetal and neonatal outcomes – a cohort study
 
@@ -10,15 +10,14 @@ README
 
 **Authors:** Helene Højbjerre, Sine Knorr, Lene Ring Madsen, Magnus Leth-Møller, Pernille Bundgaard Grinderslev, Amalie Nørkjær Svendsen, Laura Løftgaard Knudsen, Lene Sundahl Mortensen, Lars Peter Sørensen, Henrik Holm Thomsen, Per Glud Ovesen, Jens Fuglsang, Ulla Kampmann
 
-**Repository DOI**: pending
+**Repository DOI**: DOI: 10.5281/zenodo.19559697
 
 **License**: MIT
 
-\## Overview
-
+## Overview
 This code repository contains the analysis code for the study of maternal metabolic status in women with gestational diabetes mellitus (GDM) and its associations with obstetric and neonatal outcomes. It includes data cleaning, variable construction, and statistical analyses for the study cohort from the Central Denmark Region GDM follow-up program (2019–2022). The repository is provided to support the transparency and reproducibility of the analyses presented in the manuscript. Clinical data are not publicly available, as data access is subject to legal and ethical restrictions.
 
-\## Repository structure
+## Repository structure
 
 \- \`GDM_analysis.do\`
 
@@ -39,7 +38,7 @@ License for reuse of the code.
 \- \` synthetic_demo_data_international.dta\`  
 Synthetic dataset with 150 artificial observations illustrating the expected structure of the analysis dataset.
 
-\## Software requirements
+## Software requirements
 
 \- Operating system tested on: macOS 26.4
 
@@ -51,7 +50,7 @@ Synthetic dataset with 150 artificial observations illustrating the expected str
 
 \- Typical runtime: approximately 3 minutes on a current desktop computer
 
-\## Input data
+## Input data
 
 The analyses were conducted using clinical research data from a GDM follow-up program (2019–2022) in Central Denmark. The original individual-level data contain sensitive health information and are therefore not publicly available.
 
@@ -75,7 +74,7 @@ The synthetic example dataset is provided only to illustrate the expected struct
 
 4\. Run \`GDM_analysis.do\`.
 
-\## Analytical workflow
+## Analytical workflow
 
 The do-file is organized into five sections:
 
@@ -93,13 +92,11 @@ This section reproduces the main logistic and linear regression analyses reporte
 
 This section includes correlation analyses between glycaemic and lipid parameters and sensitivity analyses with mutual adjustment of selected correlated metabolic variables.
 
-\## Data availability
-
+## Data availability
 The original clinical data underlying this study are not publicly available because they contain sensitive participant information and are subject to ethical and legal restrictions.
 
-\## Code availability
-
-The version of the code used in the manuscript is publicly available in Zenodo and is available at DOI: pending. This repository contains original analysis code written by the authors. The code is distributed under the MIT License. Use of the code does not provide access to the underlying clinical data or to Stata software, which requires a separate licensed installation.
+## Code availability
+The version of the code used in the manuscript is publicly available in Zenodo and is available at DOI: 10.5281/zenodo.19559697. This repository contains original analysis code written by the authors. The code is distributed under the MIT License. Use of the code does not provide access to the underlying clinical data or to Stata software, which requires a separate licensed installation.
 
 \## Contact
 
